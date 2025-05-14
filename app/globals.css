@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-green: #8cc63f;
+  --secondary-blue: #0071bc;
+  --background: #ffffff;
+  --foreground: #333333;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+}
+
+@layer components {
+  .section-heading {
+    @apply bg-primary text-white text-center py-3 text-2xl font-bold rounded-md mb-8;
+  }
+
+  .read-more-btn {
+    @apply border border-gray-300 rounded-full px-6 py-2 text-gray-600 hover:bg-gray-100 transition-colors;
+  }
+
+  .view-more-btn {
+    @apply bg-accent text-white rounded-md px-6 py-2 hover:bg-accent/90 transition-colors;
+  }
+
+  .service-icon-container {
+    @apply bg-gray-100 rounded-full flex items-center justify-center w-24 h-24 mx-auto transition-all hover:bg-gray-200;
+  }
+
+  .service-icon-text {
+    @apply text-center text-accent mt-2 font-medium;
+  }
+
+  .slider-arrow {
+    @apply absolute top-1/2 transform -translate-y-1/2 bg-white/50 rounded-full p-2 z-10 text-gray-700 hover:bg-white/80;
+  }
+
+  .slider-arrow-left {
+    @apply left-4;
+  }
+
+  .slider-arrow-right {
+    @apply right-4;
+  }
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.1);
+  z-index: 50;
+  border-radius: 4px;
+  padding: 0.5rem 0;
+}
+
+.nav-dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.slider-container {
+  position: relative;
+  overflow: hidden;
+}
