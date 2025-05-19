@@ -1,6 +1,6 @@
 # 🌐 Ethio Telecom Website Clone
 
-This is a responsive, visually appealing **clone of the Ethio Telecom official website**, built for learning and design inspiration purposes. I recreated it using **Next.js**, **React**, and **Tailwind CSS**, focusing on layout structure, responsiveness, and UI/UX consistenc.
+This is a responsive, visually appealing **clone of the Ethio Telecom official website**, built for learning and design inspiration purposes. I recreated it using **Next.js**, **React**, and **Tailwind CSS**, focusing on layout structure, responsiveness, and UI/UX consistency.
 
 ## 🚀 Features
 
