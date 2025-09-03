@@ -4,7 +4,7 @@ This is a responsive, visually appealing **clone of the Ethio Telecom official w
 
 ## 🚀 Features
 
-- ⚡ Fast performance with Next.js
+- ⚡ Fast performance with Next.js,
 - 🎨 Beautiful UI with Tailwind CSS
 - 📱 Fully responsive design
 - 🔄 Recreated layout based on the original Ethio Telecom website
