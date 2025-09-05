@@ -13,7 +13,7 @@ This is a responsive, visually appealing **clone of the Ethio Telecom official w
 ## 🛠️ Built With
 
 - [Next.js](https://nextjs.org/) 
-- [React](https://reactjs.org/),
+- [React](https://reactjs.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
 
 
