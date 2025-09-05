@@ -8,7 +8,7 @@ This is a responsive, visually appealing **clone of the Ethio Telecom official w
 - 🎨 Beautiful UI with Tailwind CSS,
 - 📱 Fully responsive design,
 - 🔄 Recreated layout based on the original Ethio Telecom website,
-- 💻 Clean, maintainable code structure.
+- 💻 Clean, maintainable code structure
 
 ## 🛠️ Built With
 
